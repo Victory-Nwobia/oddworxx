@@ -1,0 +1,30 @@
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    
+}
+h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+
+}
+label{
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+input{
+    border: solid 3px black;
+    border-radius: 5px;
+}
