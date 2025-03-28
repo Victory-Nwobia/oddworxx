@@ -1,0 +1,65 @@
+*{
+    font-family: 'Segoe UI';
+    color: black;
+}
+#todo-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#header{
+    font-size: 25px;
+    font-weight: 600;
+}
+#text-input{
+    border: solid 3px black;
+    height: 30px;
+    border-radius: 5px;
+
+}
+button{
+
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#tasks{
+    display:flex;
+    flex-direction: column;
+}
+#task-text{
+    word-wrap: break-word;
+    width: 250px;
+}
+#task-item{
+    display: flex;
+    align-items: center;
+}
+p{
+    color: black;
+    margin-right: 20px;
+
+}
+
+p:hover{
+    cursor: pointer;
+}
+#inputs{
+    margin-bottom: 30px;
+}
+#delete-btn{
+    height: 45px;
+    width: 70px;
+    text-align: center;
+    
+}
